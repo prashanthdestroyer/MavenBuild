@@ -28,7 +28,7 @@ node('') {
 		emailext (
 		      subject: "Job Completed",
 		      body: "Jenkins Pipeline Job for Maven Build got completed !!!",
-		      to: "build-alerts@examppllee.com"
+		      to: "build-alerts@exaamppllee.com"
 		    )
 	}
 }
